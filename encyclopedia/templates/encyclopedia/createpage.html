@@ -1,0 +1,21 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+
+{% block body %}
+    <h1 id="createpageheader">Markdown To HTML</h1>
+    {{ FileExists}}
+
+    <form class="markdownpost" action="{% url 'entry' %}" method="POST">
+        {% csrf_token %}
+        {{ form }}
+        {{ data }}
+        <input type="submit" name="newpage" id="createsubmit" value="Publish"> 
+    </form>
+
+   
+
+{% endblock %}

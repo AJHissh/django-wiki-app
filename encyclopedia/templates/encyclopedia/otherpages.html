@@ -1,0 +1,20 @@
+{% extends "encyclopedia/layout.html" %}
+
+
+{% block body %}
+
+    <h1>Page could not be found</h1>
+
+      <h4> The page you requested could not found but here is a list of similar searches. </h3>
+
+        {% for query in name %}
+
+        <a href= 'wiki/{{query}}.md'>
+
+           <li> {{ query }} </li>
+        </a>
+  
+        {% endfor %}
+
+
+{% endblock %}

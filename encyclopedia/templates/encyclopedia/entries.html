@@ -1,0 +1,19 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Test Page
+{% endblock %}
+
+
+{% block body %}
+    <h1>Create Page</h1>
+
+    <form class="markdownpost" action="{% url 'entries' %}" method="POST">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" name="newpage" id="createsubmit"> 
+    </form>
+
+   
+
+{% endblock %}

@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    background-color: white;
+    margin-right: 1vw;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+    color: black;
+}
+
+textarea {
+    height: 70vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+  
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+    color: black;
+    
+}
+
+h2 {
+    color: black;
+}
+
+
+.label {
+    color: blue;
+}
+
+.markdownpost {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+}
+
+.markdownpost label {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.test2  {
+    margin-right: 25vw;
+    margin-left: 25vw;
+    text-align: center;
+} 
+
+#createsubmit {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 2vh;
+}
+
+#createpageheader {
+    text-align: center;
+    margin-top: 1vh;
+}
+
+
+#edit_title {
+    text-align: center;
+    font-size: medium;
+}
+
+#edit_title_input {
+    margin-left: 25vw;
+    margin-right: 25vw;
+
+}
+
+#edit {
+    width: 53vw;
+
+}
+
+#markdowntitle {
+    text-align: center;
+    font-size: medium;
+    margin-top: -2vh;
+
+}
+
+#editsubmit {
+    margin-top: 1vh;
+    width: 40vw;
+    margin-left: 22vw;
+    text-overflow: wrap;
+    
+}
+
+.edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+}
+
+.row {
+    height: 100vh;
+}
+
+#editpageheader {
+    margin-top: -2vh;
+    text-align: center;
+}
